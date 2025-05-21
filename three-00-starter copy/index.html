@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Three.js Starter File with Sound</title>
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Import map for Three.js -->
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@v0.174.0/build/three.module.js",
+        "three/addons/": "https://cdn.jsdelivr.net/npm/three@v0.174.0/examples/jsm/"
+      }
+    }
+  </script>
+
+  <!-- Link to your main Three.js file -->
+  <script type="module" src="js/main.js"></script>
+</head>
+
+<body>
+  <header>
+    <!-- <p>Starter file from <a href="https://threejs.org/docs/#manual/en/introduction/Creating-a-scene">Three.js documentation</a></p>
+    <p>Three.js library is imported via a <a href="https://threejs.org/docs/#manual/en/introduction/Installation">CDN</a></p> -->
+
+    <!-- Sound Controls -->
+    <!-- <button id="play">Click to play sound</button>
+    <button id="pause">Pause sound</button> -->
+    <br>
+    <!-- <label for="volume">Volume:</label> -->
+    <!-- <input type="range" id="volume" min="0" max="1" step="0.01" value="0.5"> -->
+  </header>
+
+  <!-- Audio Element -->
+  <audio id="sound-effect" src="assets/803199__ceethewhite__trailer-booms.wav"></audio>
+
+  <!-- Sound JS -->
+  <script type="module" src="js/sound.js"></script>
+</body>
+</html>
